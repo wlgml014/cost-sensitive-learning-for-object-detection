@@ -22,4 +22,13 @@ Modify ```config/{}.py``` according to your needs, then```python train_voc.py```
 # How to test
 Modify ```config/{}.py``` according to your needs, then ```python test_voc.py```.
 
+# experiment
+1. baseline model
+- model: centerNet
+- data: PASCAL VOC 2012
+- ckp: ckp/best_checkpoint.pth
+2. cost-sensitive learning
+- model: centerNet
+- data: PASCAL VOC 2012
+- ckp: ckp/my_best_checkpoint3.pth
 
